@@ -90,7 +90,108 @@ We believe trust should be **instant, invisible, and built into every digital in
 
 ---
 
-## MVP : https://fraudshieldidentitymvp.lovable.app
+## 🛠️ Tech Stack
+
+### Frontend
+
+| Technology | Purpose |
+|------------|---------|
+| **React 18** | UI library for building the component-based interface |
+| **TypeScript** | Type-safe JavaScript for robust, maintainable code |
+| **Vite 5** | Fast development server and production build tool |
+| **React Router DOM v6** | Client-side routing between screens (login, scan, dashboard, etc.) |
+| **Framer Motion** | Smooth page transitions and UI animations |
+| **TanStack Query (React Query) v5** | Server-state caching and async data management |
+
+### UI & Styling
+
+| Technology | Purpose |
+|------------|---------|
+| **Tailwind CSS v3** | Utility-first CSS framework for rapid, consistent styling |
+| **shadcn/ui** | Accessible, composable UI primitives (buttons, dialogs, forms, etc.) |
+| **Radix UI** | Headless, accessible component primitives (dropdowns, modals, tabs, etc.) |
+| **Lucide React** | Consistent, lightweight icon set |
+| **Tailwind CSS Animate** | Prebuilt animation utilities |
+
+### Data, Forms & Validation
+
+| Technology | Purpose |
+|------------|---------|
+| **Zod** | Runtime schema validation for forms and data shapes |
+| **React Hook Form** | Performant, flexible form handling with validation |
+| **Recharts** | Data visualizations for the analyst dashboard |
+| **Embla Carousel** | Touch-friendly carousels for document previews |
+| **Date-fns** | Lightweight date formatting and manipulation |
+
+### Backend & Infrastructure
+
+| Technology | Purpose |
+|------------|---------|
+| **Lovable** | Low-code development and deployment platform |
+| **Mock authentication** | Session-based demo login (no external auth provider in MVP) |
+| **Session storage** | Lightweight client-side session persistence for demo users |
+
+> **Note:** This MVP uses mocked data and client-side session storage. Production deployments typically integrate with a backend service (e.g., Supabase / Lovable Cloud) for persistent data, real authentication, and audit logging.
+
+### Testing & Tooling
+
+| Technology | Purpose |
+|------------|---------|
+| **Vitest** | Fast unit testing framework |
+| **ESLint + TypeScript ESLint** | Static code analysis and type-aware linting |
+| **PostCSS + Autoprefixer** | CSS processing and vendor prefix automation |
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- **Node.js** v18 or later
+- **npm** or **bun** package manager
+
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Run the development server
+
+```bash
+npm run dev
+```
+
+The app will be available at `http://localhost:8080`.
+
+### Build for production
+
+```bash
+npm run build
+```
+
+### Run tests
+
+```bash
+npm run test
+```
+
+### Demo login
+
+Use any of the pre-configured demo accounts on the login screen:
+
+- **Kiran Patel** — Senior Fraud Analyst
+- **Ananya Rao** — KYC Operations Lead
+
+Password for all demo accounts: `demo1234`
+
+---
+
+## MVP
+
+**Live app:** [https://fraudshieldidentitymvp.lovable.app](https://fraudshieldidentitymvp.lovable.app)
+
+---
 
 ---
 
